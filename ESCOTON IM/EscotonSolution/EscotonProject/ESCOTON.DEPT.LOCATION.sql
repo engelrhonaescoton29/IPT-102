@@ -1,0 +1,6 @@
+﻿CREATE TABLE [ESCOTON].[LOCATION]
+(
+	[Id] INT NOT NULL PRIMARY KEY, 
+    [Dnumber] INT NOT NULL, 
+    [Dlocation] VARCHAR(15) NOT NULL
+)
