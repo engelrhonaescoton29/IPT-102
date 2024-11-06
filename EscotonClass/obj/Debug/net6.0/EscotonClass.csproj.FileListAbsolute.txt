@@ -1,0 +1,11 @@
+C:\ESCOTON COMPANY\EscotonSolution\EscotonClass\bin\Debug\net6.0\EscotonClass.deps.json
+C:\ESCOTON COMPANY\EscotonSolution\EscotonClass\bin\Debug\net6.0\EscotonClass.dll
+C:\ESCOTON COMPANY\EscotonSolution\EscotonClass\bin\Debug\net6.0\EscotonClass.pdb
+C:\ESCOTON COMPANY\EscotonSolution\EscotonClass\obj\Debug\net6.0\EscotonClass.GeneratedMSBuildEditorConfig.editorconfig
+C:\ESCOTON COMPANY\EscotonSolution\EscotonClass\obj\Debug\net6.0\EscotonClass.AssemblyInfoInputs.cache
+C:\ESCOTON COMPANY\EscotonSolution\EscotonClass\obj\Debug\net6.0\EscotonClass.AssemblyInfo.cs
+C:\ESCOTON COMPANY\EscotonSolution\EscotonClass\obj\Debug\net6.0\EscotonClass.csproj.CoreCompileInputs.cache
+C:\ESCOTON COMPANY\EscotonSolution\EscotonClass\obj\Debug\net6.0\EscotonClass.dll
+C:\ESCOTON COMPANY\EscotonSolution\EscotonClass\obj\Debug\net6.0\refint\EscotonClass.dll
+C:\ESCOTON COMPANY\EscotonSolution\EscotonClass\obj\Debug\net6.0\EscotonClass.pdb
+C:\ESCOTON COMPANY\EscotonSolution\EscotonClass\obj\Debug\net6.0\ref\EscotonClass.dll
