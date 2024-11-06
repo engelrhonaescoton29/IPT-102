@@ -1,7 +1,0 @@
-﻿CREATE TABLE [ESCOTON].[WORKS_ON]
-(
-	[Id] INT NOT NULL PRIMARY KEY, 
-    [Essn] CHAR(9) NOT NULL, 
-    [Pno] INT NOT NULL, 
-    [Hours] DECIMAL(3, 1) NOT NULL
-)
