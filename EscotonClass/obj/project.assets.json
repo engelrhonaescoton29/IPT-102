@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\tryyy\\IPT-102\\EscotonClass\\EscotonClass.csproj",
+      "projectUniqueName": "C:\\photos\\EscotonClass\\EscotonClass.csproj",
       "projectName": "EscotonClass",
-      "projectPath": "C:\\tryyy\\IPT-102\\EscotonClass\\EscotonClass.csproj",
+      "projectPath": "C:\\photos\\EscotonClass\\EscotonClass.csproj",
       "packagesPath": "C:\\Users\\Emmie Grace\\.nuget\\packages\\",
-      "outputPath": "C:\\tryyy\\IPT-102\\EscotonClass\\obj\\",
+      "outputPath": "C:\\photos\\EscotonClass\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
