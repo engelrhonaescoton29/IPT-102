@@ -1,0 +1,24 @@
+﻿** Highlights
+     Tables that will be recreated with data migrated
+       None
+     Clustered indexes that will be dropped
+       None
+     Clustered indexes that will be created
+       None
+     Possible data issues
+       None
+
+** User actions
+     Create
+       [dbo].[Department] (Table)
+       [dbo].[Dependent] (Table)
+       [dbo].[Dept_Location] (Table)
+       [dbo].[Employee] (Table)
+       [dbo].[Project] (Table)
+       [dbo].[Works_On] (Table)
+       [dbo].[Employee_Create] (Procedure)
+       [dbo].[Employee_Delete] (Procedure)
+       [dbo].[Employee_Read] (Procedure)
+       [dbo].[Employee_Update] (Procedure)
+
+** Supporting actions

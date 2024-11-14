@@ -1,6 +1,0 @@
-C:\ESCOTON COMPANY\EscotonSolution\EscotonCompany\bin\Debug\EscotonCompany.dacpac
-C:\ESCOTON COMPANY\EscotonSolution\EscotonCompany\obj\Debug\EscotonCompany.sqlproj.AssemblyReference.cache
-C:\ESCOTON COMPANY\EscotonSolution\EscotonCompany\obj\Debug\EscotonCompany.dll
-C:\ESCOTON COMPANY\EscotonSolution\EscotonCompany\obj\Debug\EscotonCompany.pdb
-C:\ESCOTON COMPANY\EscotonSolution\EscotonCompany\bin\Debug\EscotonCompany.dll
-C:\ESCOTON COMPANY\EscotonSolution\EscotonCompany\bin\Debug\EscotonCompany.pdb

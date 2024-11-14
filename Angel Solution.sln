@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34031.279
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "Angel Company2", "Angel Company2\Angel Company2.sqlproj", "{3BEEA21A-DB0A-45EE-8211-B8D040793BE6}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ANGEL PROJECT", "..\..\ANGEL PROJECT IPT2\Escoton Solution\ANGEL PROJECT\ANGEL PROJECT.csproj", "{00C74A6C-EEF4-4E19-9762-987F34F196E5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3BEEA21A-DB0A-45EE-8211-B8D040793BE6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3BEEA21A-DB0A-45EE-8211-B8D040793BE6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3BEEA21A-DB0A-45EE-8211-B8D040793BE6}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{3BEEA21A-DB0A-45EE-8211-B8D040793BE6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3BEEA21A-DB0A-45EE-8211-B8D040793BE6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3BEEA21A-DB0A-45EE-8211-B8D040793BE6}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{00C74A6C-EEF4-4E19-9762-987F34F196E5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{00C74A6C-EEF4-4E19-9762-987F34F196E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{00C74A6C-EEF4-4E19-9762-987F34F196E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{00C74A6C-EEF4-4E19-9762-987F34F196E5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {401CDBD7-5F7E-4D75-9FB4-73F988CFCB2A}
+	EndGlobalSection
+EndGlobal
