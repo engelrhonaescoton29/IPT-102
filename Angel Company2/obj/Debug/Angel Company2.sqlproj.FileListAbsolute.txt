@@ -1,6 +1,0 @@
-C:\Rhona29\Angel Solution\Angel Company2\bin\Debug\Angel Company2.dacpac
-C:\Rhona29\Angel Solution\Angel Company2\bin\Debug\Angel_Company2.dll
-C:\Rhona29\Angel Solution\Angel Company2\bin\Debug\Angel_Company2.pdb
-C:\Rhona29\Angel Solution\Angel Company2\obj\Debug\Angel Company2.sqlproj.AssemblyReference.cache
-C:\Rhona29\Angel Solution\Angel Company2\obj\Debug\Angel_Company2.dll
-C:\Rhona29\Angel Solution\Angel Company2\obj\Debug\Angel_Company2.pdb

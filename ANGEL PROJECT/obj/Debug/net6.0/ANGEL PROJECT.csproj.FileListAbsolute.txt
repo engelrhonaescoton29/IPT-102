@@ -1,0 +1,35 @@
+C:\ANGEL PROJECT IPT2\Escoton Solution\ANGEL PROJECT\obj\Debug\net6.0\ANGEL PROJECT.GeneratedMSBuildEditorConfig.editorconfig
+C:\ANGEL PROJECT IPT2\Escoton Solution\ANGEL PROJECT\obj\Debug\net6.0\ANGEL PROJECT.AssemblyInfoInputs.cache
+C:\ANGEL PROJECT IPT2\Escoton Solution\ANGEL PROJECT\obj\Debug\net6.0\ANGEL PROJECT.AssemblyInfo.cs
+C:\ANGEL PROJECT IPT2\Escoton Solution\ANGEL PROJECT\obj\Debug\net6.0\ANGEL PROJECT.csproj.CoreCompileInputs.cache
+C:\ANGEL PROJECT IPT2\Escoton Solution\ANGEL PROJECT\obj\Debug\net6.0\ANGEL PROJECT.MvcApplicationPartsAssemblyInfo.cache
+C:\ANGEL PROJECT IPT2\Escoton Solution\ANGEL PROJECT\obj\Debug\net6.0\ANGEL PROJECT.RazorAssemblyInfo.cache
+C:\ANGEL PROJECT IPT2\Escoton Solution\ANGEL PROJECT\obj\Debug\net6.0\ANGEL PROJECT.RazorAssemblyInfo.cs
+C:\ANGEL PROJECT IPT2\Escoton Solution\ANGEL PROJECT\bin\Debug\net6.0\appsettings.Development.json
+C:\ANGEL PROJECT IPT2\Escoton Solution\ANGEL PROJECT\bin\Debug\net6.0\appsettings.json
+C:\ANGEL PROJECT IPT2\Escoton Solution\ANGEL PROJECT\bin\Debug\net6.0\ANGEL PROJECT.staticwebassets.runtime.json
+C:\ANGEL PROJECT IPT2\Escoton Solution\ANGEL PROJECT\bin\Debug\net6.0\ANGEL PROJECT.exe
+C:\ANGEL PROJECT IPT2\Escoton Solution\ANGEL PROJECT\bin\Debug\net6.0\ANGEL PROJECT.deps.json
+C:\ANGEL PROJECT IPT2\Escoton Solution\ANGEL PROJECT\bin\Debug\net6.0\ANGEL PROJECT.runtimeconfig.json
+C:\ANGEL PROJECT IPT2\Escoton Solution\ANGEL PROJECT\bin\Debug\net6.0\ANGEL PROJECT.dll
+C:\ANGEL PROJECT IPT2\Escoton Solution\ANGEL PROJECT\bin\Debug\net6.0\ANGEL PROJECT.pdb
+C:\ANGEL PROJECT IPT2\Escoton Solution\ANGEL PROJECT\obj\Debug\net6.0\staticwebassets\msbuild.ANGEL PROJECT.Microsoft.AspNetCore.StaticWebAssets.props
+C:\ANGEL PROJECT IPT2\Escoton Solution\ANGEL PROJECT\obj\Debug\net6.0\staticwebassets\msbuild.build.ANGEL PROJECT.props
+C:\ANGEL PROJECT IPT2\Escoton Solution\ANGEL PROJECT\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.ANGEL PROJECT.props
+C:\ANGEL PROJECT IPT2\Escoton Solution\ANGEL PROJECT\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.ANGEL PROJECT.props
+C:\ANGEL PROJECT IPT2\Escoton Solution\ANGEL PROJECT\obj\Debug\net6.0\staticwebassets.pack.json
+C:\ANGEL PROJECT IPT2\Escoton Solution\ANGEL PROJECT\obj\Debug\net6.0\staticwebassets.build.json
+C:\ANGEL PROJECT IPT2\Escoton Solution\ANGEL PROJECT\obj\Debug\net6.0\staticwebassets.development.json
+C:\ANGEL PROJECT IPT2\Escoton Solution\ANGEL PROJECT\obj\Debug\net6.0\scopedcss\Shared\MainLayout.razor.rz.scp.css
+C:\ANGEL PROJECT IPT2\Escoton Solution\ANGEL PROJECT\obj\Debug\net6.0\scopedcss\Shared\NavMenu.razor.rz.scp.css
+C:\ANGEL PROJECT IPT2\Escoton Solution\ANGEL PROJECT\obj\Debug\net6.0\scopedcss\bundle\ANGEL PROJECT.styles.css
+C:\ANGEL PROJECT IPT2\Escoton Solution\ANGEL PROJECT\obj\Debug\net6.0\scopedcss\projectbundle\ANGEL PROJECT.bundle.scp.css
+C:\ANGEL PROJECT IPT2\Escoton Solution\ANGEL PROJECT\obj\Debug\net6.0\ANGEL PROJECT.dll
+C:\ANGEL PROJECT IPT2\Escoton Solution\ANGEL PROJECT\obj\Debug\net6.0\refint\ANGEL PROJECT.dll
+C:\ANGEL PROJECT IPT2\Escoton Solution\ANGEL PROJECT\obj\Debug\net6.0\ANGEL PROJECT.pdb
+C:\ANGEL PROJECT IPT2\Escoton Solution\ANGEL PROJECT\obj\Debug\net6.0\ANGEL PROJECT.genruntimeconfig.cache
+C:\ANGEL PROJECT IPT2\Escoton Solution\ANGEL PROJECT\obj\Debug\net6.0\ref\ANGEL PROJECT.dll
+C:\ANGEL PROJECT IPT2\Escoton Solution\ANGEL PROJECT\bin\Debug\net6.0\EscotonClass.dll
+C:\ANGEL PROJECT IPT2\Escoton Solution\ANGEL PROJECT\bin\Debug\net6.0\EscotonClass.pdb
+C:\ANGEL PROJECT IPT2\Escoton Solution\ANGEL PROJECT\obj\Debug\net6.0\ANGEL PROJECT.csproj.AssemblyReference.cache
+C:\ANGEL PROJECT IPT2\Escoton Solution\ANGEL PROJECT\obj\Debug\net6.0\ANGEL PROJECT.csproj.CopyComplete

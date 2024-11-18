@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "ANGEL PROJECT/1.0.0": {
+        "dependencies": {
+          "EscotonClass": "1.0.0"
+        },
+        "runtime": {
+          "ANGEL PROJECT.dll": {}
+        }
+      },
+      "EscotonClass/1.0.0": {
+        "runtime": {
+          "EscotonClass.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "ANGEL PROJECT/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "EscotonClass/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

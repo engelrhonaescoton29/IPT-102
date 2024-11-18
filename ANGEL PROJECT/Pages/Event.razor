@@ -1,0 +1,187 @@
+﻿@page "/Event"
+@page "/CatAdoption"
+
+@code {
+    // Model for cat adoption
+    public class CatAdoption
+    {
+        public int Id { get; set; }
+        public string AdopterName { get; set; }
+        public string CatBreed { get; set; }
+        public int CatAge { get; set; } // In years
+        public string Address { get; set; }
+        public string PhoneNumber { get; set; }
+    }
+
+    private List<CatAdoption> catAdoptions = new List<CatAdoption>();
+    private CatAdoption newAdoption = new CatAdoption();
+    private int? editingAdoptionId = null;
+    private string shopDescription = "Welcome to our Cat Adoption Center! Adopt a furry friend today!";
+    private bool showAdoptionForm = false; // Controls visibility of the adoption form
+
+    private void AddOrUpdateAdoption()
+    {
+        if (editingAdoptionId.HasValue)
+        {
+            // Update existing adoption record
+            var adoption = catAdoptions.First(o => o.Id == editingAdoptionId.Value);
+            adoption.AdopterName = newAdoption.AdopterName;
+            adoption.CatBreed = newAdoption.CatBreed;
+            adoption.CatAge = newAdoption.CatAge;
+            adoption.Address = newAdoption.Address;
+            adoption.PhoneNumber = newAdoption.PhoneNumber;
+            editingAdoptionId = null; // Reset editing mode
+        }
+        else
+        {
+            // Add new adoption
+            newAdoption.Id = catAdoptions.Count > 0 ? catAdoptions.Max(o => o.Id) + 1 : 1;
+            catAdoptions.Add(newAdoption);
+        }
+
+        newAdoption = new CatAdoption(); // Reset form
+    }
+
+    private void EditAdoption(CatAdoption adoption)
+    {
+        editingAdoptionId = adoption.Id;
+        newAdoption.AdopterName = adoption.AdopterName;
+        newAdoption.CatBreed = adoption.CatBreed;
+        newAdoption.CatAge = adoption.CatAge;
+        newAdoption.Address = adoption.Address;
+        newAdoption.PhoneNumber = adoption.PhoneNumber;
+    }
+
+    private void DeleteAdoption(int id)
+    {
+        catAdoptions.RemoveAll(o => o.Id == id);
+    }
+
+    private void ToggleAdoptionForm()
+    {
+        showAdoptionForm = !showAdoptionForm;
+    }
+}
+
+<h3>Angel's Cat Adoption Center</h3>
+
+<div class="shop-description">
+    <p>@shopDescription</p>
+    <button @onclick="ToggleAdoptionForm">@((showAdoptionForm ? "Hide" : "Show") + " Adoption Form")</button>
+</div>
+
+@if (showAdoptionForm)
+{
+    <div class="adoption-container">
+        <h4>Adoption Form</h4>
+        <EditForm Model="@newAdoption" OnValidSubmit="@AddOrUpdateAdoption">
+            <DataAnnotationsValidator />
+            <ValidationSummary />
+
+            <div>
+                <label>Adopter Name:</label>
+                <InputText @bind-Value="newAdoption.AdopterName" />
+            </div>
+            <div>
+                <label>Cat Breed:</label>
+                <InputText @bind-Value="newAdoption.CatBreed" />
+            </div>
+            <div>
+                <label>Cat Age (in years):</label>
+                <InputNumber @bind-Value="newAdoption.CatAge" />
+            </div>
+            <div>
+                <label>Address:</label>
+                <InputText @bind-Value="newAdoption.Address" />
+            </div>
+            <div>
+                <label>Phone Number:</label>
+                <InputText @bind-Value="newAdoption.PhoneNumber" />
+            </div>
+            <button type="submit">@((editingAdoptionId.HasValue) ? "Update" : "Add")</button>
+        </EditForm>
+
+        <h4>Current Adoptions</h4>
+        <ul>
+            @foreach (var adoption in catAdoptions)
+            {
+                <li class="adoption-item">
+                    <div class="adoption-details">
+                        <strong>Adopter:</strong> @adoption.AdopterName<br>
+                        <strong>Cat Breed:</strong> @adoption.CatBreed<br>
+                        <strong>Cat Age:</strong> @adoption.CatAge years<br>
+                        <strong>Address:</strong> @adoption.Address<br>
+                        <strong>Phone:</strong> @adoption.PhoneNumber
+                    </div>
+                    <div class="button-group">
+                        <button class="edit-button" @onclick="() => EditAdoption(adoption)">Edit</button>
+                        <button class="delete-button" @onclick="() => DeleteAdoption(adoption.Id)">Delete</button>
+                    </div>
+                </li>
+            }
+        </ul>
+    </div>
+}
+
+<style>
+    .adoption-container {
+        background: linear-gradient(135deg, #e6f7ff 0%, #b3d9ff 100%);
+        padding: 20px;
+        border-radius: 8px;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+        max-width: 600px;
+        margin: auto;
+    }
+
+    .shop-description {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    h3, h4 {
+        color: #333;
+        text-align: center;
+    }
+
+    label {
+        display: block;
+        margin: 10px 0 5px;
+    }
+
+    InputText, InputNumber {
+        width: 100%;
+        padding: 8px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+    }
+
+    button {
+        background-color: #66ccff; /* Blue */
+        color: white;
+        padding: 10px 15px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        margin: 5px 0;
+    }
+
+    button:hover {
+        background-color: #33b5e5;
+    }
+
+    ul {
+        list-style-type: none;
+        padding: 0;
+    }
+
+    li {
+        margin: 10px 0;
+        padding: 10px;
+        background: #fff;
+        border-radius: 4px;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+</style>
